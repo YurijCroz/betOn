@@ -27,6 +27,9 @@ export const UserBets = () => {
     return (
       <div className="flex-auto">
         <div
+          style={{
+            borderTop: '2px solid #FFFFFF33',
+          }}
           className={`px-4 py-3 flex items-center justify-between uppercase ${bgColor} ${
             type === 'green' ? 'text-mainBG' : 'text-white'
           } rounded-lg font-semibold`}
